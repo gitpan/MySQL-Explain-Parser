@@ -27,13 +27,14 @@ no_index:
 provides:
   MySQL::Explain::Parser:
     file: lib/MySQL/Explain/Parser.pm
-    version: '0.01'
+    version: '0.02'
 requires:
+  Text::VisualWidth::PP: '0'
   parent: '0'
   perl: '5.008005'
 resources:
   bugtracker: https://github.com/moznion/MySQL-Explain-Parser/issues
   homepage: https://github.com/moznion/MySQL-Explain-Parser
   repository: git://github.com/moznion/MySQL-Explain-Parser.git
-version: '0.01'
+version: '0.02'
 x_authority: cpan:MOZNION
